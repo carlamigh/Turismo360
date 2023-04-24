@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+    
+}
+body{
+    background-image: url(../img/lago.jpg);
+}
+h1{
+    font-size: 8rem;
+    font-family: "Rokkitt";
+    color: #fff;
+    text-align: center;
+    padding: 10rem;
+}
+   
+h2{
+    color: white;
+    font-family: "Roboto";
+    font-weight: normal;
+}
+p{
+    font-family: "Roboto";
+    color:#fff;
+    font-weight: normal;
+}
+a{
+    color:white;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+a:hover{
+    color: #FF3D00;
+}
+#principal{
+    width:100%;
+}
+/*Tarjetas de destinos en P. Principal*/
+#destinos {
+    width:100%;  
+}
+#articulos-destino-flex{
+    width:100%;
+    height:10rem;
+    display:flex;
+    justify-content:space-between;    
+}
+.articulos{
+    display: inline-block; 
+    width: 20rem;
+    height: 7rem;
+    margin: 1rem;
+    padding: 1rem 1rem 0 0;
+}
+/*Titulos de destinos Home*/
+.p-destinos{
+    color:white;
+    font-size: 1.3rem;
+}
+.imagen {
+    width: 5rem;
+    height: 5rem;
+    margin: 0 1rem 0 0 ;
+    border-radius: 50%;
+    float: left;
+}
+/*********2º sección - Nuestra Empresa*****************/
+#img-descrip-pais{
+    background-image: url(../img/turismo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 210%;
+    height: 25rem;
+    border-radius: 5% 5% 0 0;
+    float: left;
+    margin-right: 1rem;
+}
+#descrip-pais-flex{
+    padding: 3rem 30rem 0 5rem;
+    background: linear-gradient( rgba(38,53,60, 0.75), rgba(5,7,12, 0.010));
+    /*backdrop-filter: blur(10px);*/
+    background-size: contain;
+    height: 28rem;
+    display:flex; 
+   
+}
+
+ul{
+    display:flex;
+    padding-top:1.5rem;
+    justify-content: center;
+    list-style: none;
+    font-family: "Roboto";
+    font-size: 1rem;
+}
+
+li{
+    padding-right: 2rem;
+}
+#tex-descrip-pais-flex{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#tex-descrip-pais-flex p{
+    font-family: "Verdana";
+    padding-top: 5rem;
+    align-items: center;
+
+}
+.boton{
+        width:11rem;
+        height: 2.5rem;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 20px;
+        border: 2px solid #FF3D00;
+        background: #FF3D00;
+        margin-top: 2rem;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+/***********Header***********/
+header {
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+}
+header nav{
+    display:flex;
+   
+}
+.boton-menu{
+    margin-left: 25rem;
+    margin-bottom: 1.5rem;
+    height: 2rem;
+}
+#menu-principal{
+    padding-bottom: 1rem;
+    padding-left: 15rem;
+}
+#buscador{
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+#buscador:hover{
+    border: 1px solid #FF3D00;
+}
+
